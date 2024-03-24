@@ -1,0 +1,445 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+ }
+
+ 
+
+ .header .logo{
+    position: absolute;
+    padding: 20px;
+    left: 2%;
+    font-size: 2.5rem;
+     color: #00A9FF;
+    font-weight: 900;
+}
+.header .navbar{
+    position: absolute;
+    align-items: center;
+    left: 65%;
+    display: flex;
+
+}
+
+.header .navbar li{
+    padding: 20px;
+    margin: 10px;
+}
+
+.header .navbar li a{
+    font-size: 0.9rem;
+    color: #92C7CF;
+    transition: 1s ease;
+    font-weight: 800;
+}
+
+.header .navbar li a:hover{
+    color: #7BD3EA;
+    font-size: 1.1rem;
+    text-shadow: 0 0 40px #7BD3EA;
+}
+
+
+.Home{
+    width: 100%;
+    height: 100vh;
+    background-color: #040D12;
+}
+
+.Home .content{
+    position: absolute;
+    align-items: center;
+    margin-top: 190px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.Home .content h1{
+    font-size: 2.5rem;
+    color: #92C7CF;
+    font-weight: 900;
+    padding: 10px;
+    text-shadow: 0 0 4px  #92C7CF;
+}
+
+.Home .content h2{
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+
+.Home .content span{
+    color: #00A9FF;
+    font-size: 3rem;
+    text-shadow: 0 0 30px  #00A9FF;
+
+}
+
+.Home .content p{
+    color: #fff;
+    margin-top: 30px;
+    font-size: 17px;
+    padding: 10px;
+}
+
+.Home .content .btn-c{
+    position: absolute;
+    align-items: center;
+    margin-top: 60px;
+    padding: 10px;
+    border: 1px solid 
+    #00A9FF;
+    width: 170px;
+    text-align: center;
+    color: #fff;
+    background-color: #00A9FF;
+    left: 30%;
+    font-size: 1.5rem;
+    border-radius: 34px;
+    box-shadow: 0 0 30px #00A9FF;
+    transition: 1s ease;
+}
+
+.Home .content .btn-c:hover{
+    transform: scale(1.20);
+    background-color: #fff;
+    color: #00A9FF;
+    text-shadow: 0 0 90px #00A9FF;
+    box-shadow: 0 10px 60px #00A9FF;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+
+.Home .imge{
+    position: absolute;
+    left: 70%;
+    margin-top: 200px;
+
+}
+
+
+
+.Home .imge img{
+    filter: drop-shadow(11px 0 50px #00a9ff);
+    width: 330px;
+    height: 350px;
+}
+
+.About{
+    width: 100%;
+    height: 100vh;
+    background-color: #071116;
+}
+
+.About h1{
+    position: absolute;
+    align-items: center;
+    left: 38%;
+    color: #fff;
+    margin: 20px;
+    padding: 20px;
+    font-weight: 900;
+    font-size: 2.7rem;
+    letter-spacing: 5px;
+    text-shadow: 0 0 20px #fff;
+}
+
+.About .imge{
+    position: absolute;
+    align-items: center;
+    margin-top: 140px;
+    left: 2%;
+    filter: drop-shadow(0 0 30px #fff);
+}
+
+.About .imge img{
+    width: 300px;
+}
+
+
+.About .continer{
+    position: relative;
+    align-items: center;
+    top: 130px;
+    left: -110px;
+}
+
+
+.About .continer h1{
+    text-shadow: 0 0 4px #fff;
+    font-size: 40px;
+}
+
+.About .continer span{
+    color: #00A9FF;
+    font-size: 3rem;
+    font-weight: 900;
+    text-shadow: 0 0 30px #00A9FF;
+    letter-spacing: 3px;
+}
+
+.About .continer h3{
+    position: absolute;
+    left: 40%;
+    color: #00A9FF;
+    font-size: 2.7rem;
+    font-weight:900;
+    margin-top: 130px
+}
+
+
+
+
+.About .continer p{
+    position: absolute;
+    left: 40%;
+    color: #fff;
+    font-size: 19px;
+    font-weight:900;
+    margin-top: 240px
+}
+
+
+
+
+.Servise{
+    width: 100%;
+    height: 100vh;
+    background-color: #040D12;
+}
+
+.Servise h4{
+    position: absolute;
+    left: 40%;
+    margin-top: 30px;
+    font-size: 3rem;
+    color: #00A9FF;
+    text-shadow: 0 0 20px #00A9FF;
+    letter-spacing: 8px;
+}
+
+
+
+.Servise .box{
+    position: absolute;
+    align-items: center;
+    display: flex;
+    margin-top: 120px;
+}
+
+
+.Servise .box .card-1{
+    border: 1px solid #fff;
+    height: 450px;
+    padding: 10px;
+    width: 400px;
+    margin-left: 10px;
+    border-radius: 50px;
+    box-shadow: 0 10px 0 #00A9FF;
+    transition: 1s ease;
+}
+
+.Servise .box .card-1 #code{
+    color: #00A9FF;
+    position: absolute;
+    left: 14%;
+    font-size: 4rem;
+    margin-top: 70px;
+
+}
+
+
+
+.Servise .box .card-1 h1{
+    margin-top: 160px;
+    text-align: center;
+    color: #00A9FF;
+    text-shadow: 0 0 20px #00A9FF;
+    padding: 10px;
+}
+
+.Servise .box .card-1 p{
+    margin: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+
+.Servise .box .card-2{
+    border: 1px solid #fff;
+    height: 450px;
+    padding: 10px;
+    width: 400px;
+    margin-left: 40px;
+    border-radius: 50px;
+    box-shadow: 0 10px 0 #00A9FF;
+    transition: 1s ease;
+}
+
+.Servise .box .card-2 #mobile-code{
+    color: #00A9FF;
+    position: absolute;
+    left: 46%;
+    font-size: 3rem;
+    margin-top: 70px;
+
+}
+
+
+
+.Servise .box .card-2 h1{
+    margin-top: 160px;
+    text-align: center;
+    color: #00A9FF;
+    text-shadow: 0 0 20px #00A9FF;
+    padding: 10px;
+}
+
+.Servise .box .card-2 p{
+    margin: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+
+.Servise .box .card-3{
+    border: 1px solid #fff;
+    height: 450px;
+    padding: 10px;
+    width: 400px;
+    margin-left: 60px;
+    border-radius: 50px;
+    box-shadow: 0 10px 0 #00A9FF;
+    transition: 1s ease;
+}
+
+.Servise .box .card-3 #figma{
+    color: #00A9FF;
+    position: absolute;
+    left: 84%;
+    font-size: 3rem;
+    margin-top: 70px;
+
+}
+
+
+
+.Servise .box .card-3 h1{
+    margin-top: 160px;
+    text-align: center;
+    color: #00A9FF;
+    text-shadow: 0 0 20px #00A9FF;
+    padding: 10px;
+}
+
+.Servise .box .card-3 p{
+    margin: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+
+
+
+.Contact{
+    width: 100%;
+    height: 100vh;
+    background-color: #071116;
+}
+
+
+
+
+.Contact h1{
+    position: absolute;
+    align-items: center;
+    left: 40%;
+    margin-top: 40px;
+    font-size: 3rem;
+    color: #fff;
+}
+
+
+
+.Contact .form{
+    position: absolute;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 160px;
+    left: 34%;
+}
+
+.Contact .form input{
+    padding: 10px;
+    margin: 20px;
+    width: 400px;
+    border-radius: 20px;
+
+}
+
+
+
+
+.Contact .form .btn-s{
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    margin-top: 360px;
+    border: 1px solid #00A9FF;
+    padding: 10px;
+    background-color: #00A9FF;
+    width: 190px;
+    font-size: 2.1rem;
+    color: #fff;
+    border-radius: 45px;
+    transition: 1s ease;
+}
+
+.Contact .form .btn-s:hover{
+    transform: scale(1.20);
+    background-color: #fff;
+    color: #7BD3EA;
+    text-shadow: 0 0 30px #7BD3EA;
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
